@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primbon Pernikahan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Primbon Pernikahan</h1>
+        <form id="primbonForm">
+            <div class="form-group">
+                <label for="nama1">Nama Calon Pengantin 1:</label>
+                <input type="text" id="nama1" name="nama1" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggalLahir1">Tanggal Lahir Calon Pengantin 1 (YYYY-MM-DD):</label>
+                <input type="date" id="tanggalLahir1" name="tanggalLahir1" required>
+            </div>
+            <div class="form-group">
+                <label for="nama2">Nama Calon Pengantin 2:</label>
+                <input type="text" id="nama2" name="nama2" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggalLahir2">Tanggal Lahir Calon Pengantin 2 (YYYY-MM-DD):</label>
+                <input type="date" id="tanggalLahir2" name="tanggalLahir2" required>
+            </div>
+            <button type="submit">Hitung Primbon</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
